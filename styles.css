@@ -1,19 +1,4 @@
-
-:root{
-    /*Colors*/
-    --GL: #c3e06d;
-    --DG: #95a54d;
-    --AR: #b25c59;
-    --B: #0c0f06;
-    --G: #36343c;
-    }
-
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:100vh;
-}
+/*Animation for Icons*/
 #graphicDesignAnimation{
     overflow: visible;
 }
@@ -90,3 +75,20 @@ body{
 @keyframes slideLeft{
     to{transform: translate(-100px);}
 }
+
+/* Icons layout */
+#SIcons{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+#Icon1Div,#Icon2Div{
+    margin-left:10px;
+    margin-right:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Icon1Div{grid-column: 1/2;}
+#Icon2Div{grid-column: 2/3;}
