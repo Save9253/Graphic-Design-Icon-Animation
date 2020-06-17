@@ -83,12 +83,10 @@ body{
 }
 
 .slideLeft{
-    animation: slideLeft 4s 5s linear forwards;
+    animation: slideLeft 1s 5s linear forwards;
+    transform: translate(0px);
 }
 
 @keyframes slideLeft{
-    0%{transform: translate(0px);}
-    25%{transform: translate(-100px);}
-    75%{transform: translate(-100px);}
-    100%{transform: translate(0px);}
+    to{transform: translate(-100px);}
 }
