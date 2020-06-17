@@ -4,3 +4,16 @@ body{
     justify-content: center;
     height:100vh;
 }
+
+#logoTop,#logoBottom{
+    animation: draw 2s 3s linear forwards;
+    stroke-dasharray: 190.43931579589844px;
+}
+@keyframes draw{
+    from{
+        stroke-dashoffset: 190.43931579589844px;
+    }
+    to{
+        stroke-dashoffset: 0;
+    }
+}
