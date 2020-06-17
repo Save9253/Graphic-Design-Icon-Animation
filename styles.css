@@ -1,3 +1,13 @@
+
+:root{
+    /*Colors*/
+    --GL: #c3e06d;
+    --DG: #95a54d;
+    --AR: #b25c59;
+    --B: #0c0f06;
+    --G: #36343c;
+    }
+
 body{
     display: flex;
     align-items: center;
