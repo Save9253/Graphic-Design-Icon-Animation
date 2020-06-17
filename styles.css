@@ -14,7 +14,7 @@ body{
     justify-content: center;
     height:100vh;
 }
-svg{
+.graphicDesignAnimation{
     overflow: visible;
 }
 .logo{
@@ -47,3 +47,43 @@ svg{
       offset-distance: 100%;
     }
   }
+.codeLine20{animation: codeLine20 200ms linear forwards;}
+.codeLine40{animation: codeLine40 500ms linear forwards;}
+.codeLine60{animation: codeLine60 600ms linear forwards;}
+.codeLine80{animation: codeLine80 800ms linear forwards;}
+
+#codeLine2{animation-delay: 200ms;}
+#codeLine3{animation-delay: 800ms;}
+#codeLine4{animation-delay: 1400ms;}
+#codeLine5{animation-delay: 1600ms;}
+#codeLine6{animation-delay: 2400ms;}
+#codeLine7{animation-delay: 2600ms;}
+#codeLine8{animation-delay: 3000ms;}
+#codeLine9{animation-delay: 3800ms;}
+#codeLine10{animation-delay: 4000ms;}
+#codeLine11{animation-delay: 4400ms;}
+
+@keyframes codeLine20{
+    from{width:0px;}
+    to{width:20px;}
+}
+@keyframes codeLine40{
+    from{width:0px;}
+    to{width:40px;}
+}
+@keyframes codeLine60{
+    from{width:0px;}
+    to{width:60px;}
+}
+@keyframes codeLine80{
+    from{width:0px;}
+    to{width:80px;}
+}
+
+#code,#web{
+    animation: slideLeft 1s 4500ms linear forwards;
+}
+
+@keyframes slideLeft{
+    to{transform: translate(-100px);}
+}
